@@ -37,6 +37,3 @@ cacheSolve <- function(x, ...) {
   x$setInverse(i)
   i
 }
-
-bigMatrix <- makeCacheMatrix(matrix(rnorm(16), 4, 4))
-cacheSolve(bigMatrix)
